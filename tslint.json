@@ -1,0 +1,10 @@
+{
+    "rules": {
+        "no-implicit-dependencies": false,
+        "no-submodule-imports": [true, "webpack"],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
+        "object-literal-sort-keys": false,
+        "curly": [true, "ignore-same-line"]
+    },
+    "extends": ["tslint:latest", "tslint-config-prettier"]
+}

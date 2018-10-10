@@ -1,0 +1,38 @@
+{
+    "name": "@koala-framework/trl-plugin",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc --watch",
+        "lint": "tslint -c tslint.json 'src/**/*.ts'",
+        "prepublish": "npm run build"
+    },
+    "author": "Alexander Kaufmann <ak@vivid-planet.com>",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "gettext-parser": "^2.0.0"
+    },
+    "peerDependencies": {
+        "webpack": "^4.20.2"
+    },
+    "devDependencies": {
+        "@types/node": "^10.11.4",
+        "@types/webpack": "^4.4.14",
+        "prettier": "^1.14.3",
+        "tslint": "^5.11.0",
+        "tslint-config-prettier": "^1.15.0",
+        "typescript": "^3.1.1",
+        "webpack": "^4.20.2"
+    },
+    "keywords": [
+        "trl",
+        "translation",
+        "webpack",
+        "webpack-plugin"
+    ]
+}
