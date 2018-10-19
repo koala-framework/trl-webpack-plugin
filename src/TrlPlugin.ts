@@ -124,7 +124,7 @@ class TrlPlugin {
                         dep.loc = expr.callee.loc;
                         parser.state.current.addDependency(dep);
 
-                        const expression = "require('kwf/commonjs/trl')";
+                        const expression = "require('@koala-framework/trl-plugin/dist/trl').default";
                         const nameIdentifier = "__kwfTrl";
                         ParserHelpers.addParsedVariableToModule(parser, nameIdentifier, expression);
                     }
