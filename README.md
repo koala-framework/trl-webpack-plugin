@@ -1,4 +1,4 @@
-# trl-plugin
+# trl-webpack-plugin
 
 ## Usage
 Add Plugin in `webpack.config.js`
