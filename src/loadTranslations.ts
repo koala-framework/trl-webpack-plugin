@@ -3,7 +3,6 @@ import * as fs from "fs";
 import * as gettextParser from "gettext-parser";
 
 export interface ITranslation {
-    [key: string]: string | string[];
     msgid: string;
     msgid_plural?: string;
     msgstr: string | string[];
