@@ -53,7 +53,6 @@ class TrlPlugin {
         parserHook.for("javascript/dynamic").tap(this.pluginName, parserFn);
         parserHook.for("javascript/esm").tap(this.pluginName, parserFn);
 
-        this.scriptLoaderResources = [];
         compilation.hooks.buildModule.tap(this.pluginName, this.findRawResources);
     };
 
